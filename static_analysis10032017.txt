@@ -1,0 +1,55 @@
+************* Module dummysite.urls
+C: 22, 0: Final newline missing (missing-final-newline)
+C: 19, 0: Invalid constant name "urlpatterns" (invalid-name)
+************* Module dummysite.wsgi
+C: 16, 0: Invalid constant name "application" (invalid-name)
+************* Module manage
+C:  1, 0: Missing module docstring (missing-docstring)
+W: 14,12: Unused import django (unused-import)
+************* Module polls.admin
+C:  9, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+************* Module polls.apps
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  7, 0: Missing class docstring (missing-docstring)
+************* Module polls.models
+C: 26, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Missing class docstring (missing-docstring)
+C: 16, 4: Missing method docstring (missing-docstring)
+C: 21, 0: Missing class docstring (missing-docstring)
+************* Module polls.tests
+C: 38, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 11, 0: Missing class docstring (missing-docstring)
+C: 13, 4: Invalid method name "test_was_published_recently_with_future_question" (invalid-name)
+C: 22, 4: Invalid method name "test_was_published_recently_with_old_question" (invalid-name)
+C: 31, 4: Invalid method name "test_was_published_recently_with_recent_question" (invalid-name)
+************* Module polls.urls
+C: 11, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Invalid constant name "app_name" (invalid-name)
+C:  6, 0: Invalid constant name "urlpatterns" (invalid-name)
+************* Module polls.views
+C: 45, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 12, 0: Missing class docstring (missing-docstring)
+R: 12, 0: Too many ancestors (8/7) (too-many-ancestors)
+E: 18,15: Class 'Question' has no 'objects' member (no-member)
+C: 20, 0: Missing class docstring (missing-docstring)
+R: 20, 0: Too many ancestors (8/7) (too-many-ancestors)
+C: 25, 0: Missing class docstring (missing-docstring)
+R: 25, 0: Too many ancestors (8/7) (too-many-ancestors)
+C: 29, 0: Missing function docstring (missing-docstring)
+E: 33,22: Class 'Choice' has no 'DoesNotExist' member (no-member)
+************* Module polls.migrations.0001_initial
+C: 20, 0: Line too long (114/100) (line-too-long)
+C: 28, 0: Line too long (114/100) (line-too-long)
+C: 36, 0: Line too long (102/100) (line-too-long)
+C:  1, 0: Invalid module name "0001_initial" (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  9, 0: Missing class docstring (missing-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.88/10 (previous run: 5.88/10, +0.00)
+
